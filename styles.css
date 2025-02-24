@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+.gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid orange;
+            border-radius: 5px;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid orange;
+            text-align: center;
+            padding: 3px 5px;
+        }
+        th {
+            background-color: #888888;
+            color: white;
+        }
+        .sub-total-text {
+            text-align: right;
+        }
